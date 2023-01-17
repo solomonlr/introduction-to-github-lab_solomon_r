@@ -12,7 +12,7 @@ If you plan on continuing in Computer Science, you'll run into Github in both yo
 
 ## Setup
 
-First, go ahead and install the following software on your own device.
+First, install the following software on your own device.
 
 [Github Desktop](https://desktop.github.com/)
 
@@ -38,6 +38,8 @@ You'll be working with a lab partner, so the next step only needs to be done by 
 
 1. At the top right of the repository webpage, click the button labeled **Fork**. This makes a copy of the entire repository and moves it to your account so you can make whatever changes you want.
 
+![fork](images/fork.png)
+
 2. In the next screen, change the name to `introduction-to-github-first-partner-first-name-last-initial-second-partner-first-name-last-initial`. For example, `introduction-to-github-john-a-kyle-d`.
 
 3. Make the repository private and keep **Copy the main branch only** checked, then click **Create fork**.
@@ -56,9 +58,12 @@ Making a new branch allows you to make changes to the repository without affecti
 Each lab partner will have to do this next section on their own
 
 1. At the top left of the page, click the button that says main
-**INSERT IMAGE HERE**
+
+![main-branch](images/main-branch.png)
 
 2. Enter the name for the branch following the following naming convention, `first-name-last-initial-branch`. For example, `john-a-branch`. Then click `Create branch:`.
+
+![new-branch](images/new-branch.png)
 
 </details>
 
@@ -70,6 +75,8 @@ A commit is a group of edits you've made to files and folders.
 1. Open up Github Desktop. At the top right of the screen, click File -> Options. Login to your Github account from this screen.
 
 2. Go back to the repository in your web browser. Click the green button near the top of the repository that says Code. Click the button next to the link to copy the link.
+
+![clone](images/)
 
 3. In Github Desktop, click **Clone a repository from the internet**. You should see the repository you forked in the previous step. Select that repository and click clone.
 
