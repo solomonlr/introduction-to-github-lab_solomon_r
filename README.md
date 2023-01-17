@@ -13,8 +13,12 @@ If you plan on continuing in Computer Science, you'll run into Github in both yo
 ## Setup
 
 First, go ahead and install the following software on your own device.
+
 [Github Desktop](https://desktop.github.com/)
+
+
 Use whatever code editor you prefer, but here is a link to a recommended one if you need it.
+
 [Visual Studio Code (optional)](https://code.visualstudio.com/)
 
 ## Definitions
