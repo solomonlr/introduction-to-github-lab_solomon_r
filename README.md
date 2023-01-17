@@ -26,7 +26,7 @@ A repository is a project of files and folders that are tracked for changes. Thi
 A parallel working version of your repository. You can have multiple branches at a time and branches can be created and deleted at will. Each repository default branch is called `main`.
 
 <details>
-<summary> Making a fork </summary>
+<summary><h2> Making a fork </h2></summary>
 
 You'll be working with a lab partner, so the next step only needs to be done by one person.
 
@@ -43,7 +43,7 @@ You'll be working with a lab partner, so the next step only needs to be done by 
 </details>
 
 <details>
-<summary> Making a branch </summary>
+<summary><h2> Making a branch </h2></summary>
 
 Making a new branch allows you to make changes to the repository without affecting other aspects of the project. That means people can upload different changes to a project without conflicting with other's work.
 
@@ -57,7 +57,7 @@ Each lab partner will have to do this next section on their own
 </details>
 
 <details>
-<summary> Commit a file </summary>
+<summary><h2> Commit a file </h2></summary>
 
 A commit is a group of edits you've made to files and folders. 
 
@@ -89,7 +89,7 @@ int main() {
 </details>
 
 <details>
-<summary> Open a pull request </summary>
+<summary><h2> Open a pull request </h2></summary>
 
 Pull requests, or PRs, are used to combine branches either from the same repository or a different one. Instead of heading straight to making a commit, a pull request can be used to propose a change. Someone else can then look over your proposal before approving it and adding your change to the target branch.
 
@@ -113,7 +113,7 @@ In this lab, both you and your partner will make a pull request, merging their o
 
 
 <details>
-<summary> Merge your partner's pull request </summary>
+<summary><h2> Merge your partner's pull request </h2></summary>
 
 Now that both of you have created a pull request, you can both see each other's branch and pull request
 
