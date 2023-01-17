@@ -23,10 +23,12 @@ Use whatever code editor you prefer, but here is a link to a recommended one if 
 
 ## Definitions
 
-**What is a repository?** 
+**What is a repository?**
+
 A repository is a project of files and folders that are tracked for changes. This tutorial is a repository itself.
 
 **What is a branch**
+
 A parallel working version of your repository. You can have multiple branches at a time and branches can be created and deleted at will. Each repository default branch is called `main`.
 
 <details>
@@ -89,6 +91,7 @@ int main() {
 8. At the top of the screen, click **Fetch Origin**, then after a second, **Push Origin**. After that you can view the repository in your web browser and you should see your new file inside the branch you created. 
 
 **Push and Pull**
+
     Imagine you are pushing your 'block' of code to the repository. That is the same as you uploading your changes. The same concept works the other way. When someone has made changes to the repository that you have not yet seen, you download, or **pull** those changes.
 </details>
 
@@ -119,6 +122,17 @@ In this lab, both you and your partner will make a pull request, merging their o
 <details>
 <summary><h2> Merge your partner's pull request </h2></summary>
 
-Now that both of you have created a pull request, you can both see each other's branch and pull request
+Now that both of you have created a pull request, you can both view each other's new branch and file. Merging a pull request is the act of combining two different branches into one, the two branches you proposed in your pull request.
+
+1. Navigate to the **Pull request** tab and find your partner's pull request.
+
+2. Click **Merge pull request**, then **Confirm merge**.
+
+3. After your partner's branch has been merged, all the changes from that branch will now appear on the main branch. You don't need that branch anymore and you can now delete it
+
+
+And that's it! To turn in this lab, **submit** the link to your repository **through Canvas** and make sure the professor's email has been added as a collaborator.
+
+Since you'll be using Github for your final project, you can always look back to this lab to refresh yourself on how some steps work. 
 
 </details>
