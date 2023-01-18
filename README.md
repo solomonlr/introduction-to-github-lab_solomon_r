@@ -87,10 +87,11 @@ A commit is a group of edits you've made to files and folders.
 
 6. Create a new file named `hello-world-first-name-last-initial.c` ie `hello-world-john-a.c` with the following code:
 ```
-#include <stdio.h>
+#include <iostream>
+
 int main() {
-   printf("Hello, World!");
-   return 0;
+    std::cout << "Hello World!";
+    return 0;
 }
 ```
 
