@@ -123,7 +123,8 @@ In this lab, both you and your partner will make a pull request, merging their o
 6. Click **Create pull request**.
 
 **Background to a pull request**
-    The conceptual understanding of a pull request is that you propose a change and request that someone else pulls your changes into the repository. This is often used when working on projects you do not have direct permissions to edit. You can contribute to other people's projects using a pull request.
+
+The conceptual understanding of a pull request is that you propose a change and request that someone else pulls your changes into the repository. This is often used when working on projects you do not have direct permissions to edit. You can contribute to other people's projects using a pull request.
 </details>
 
 
