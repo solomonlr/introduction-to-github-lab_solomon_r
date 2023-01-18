@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Git is a distributed version control system. In layman's terms, this is a piece of software that helps you organize your projects whether you work alone or collaborate with others. It has become integral to the world of STEM as it helped replace the olden days of sending code back and forth through emails. It generates a history of every change you've made and keeps those changes so collaborators can see exactly what others have worked on and make contributions to others work.
+Git is a distributed version control system. In layman's terms, this is a piece of software that helps you organize your projects whether you work alone or collaborate with others. It has become integral to the world of STEM as it helped replace the olden days of sending code back and forth through emails. It generates a history of every change you've made and keeps those changes so collaborators can see exactly what others have worked on and make contributions to others' work.
 
 The difference between Git and Github is that git is a separate software created back in 2005 by Linus Torvalds, the same person who created the Linux operating system. Github is a cloud computing implementation of Git created in 2008. This is the equivalent of Microsoft Word being created, then Google Drive coming along and allowing you to collaborate and access your documents from multiple devices with ease.
 
@@ -29,7 +29,7 @@ A repository is a project of files and folders that are tracked for changes. Thi
 
 **What is a branch**
 
-A parallel working version of your repository. You can have multiple branches at a time and branches can be created and deleted at will. Each repository default branch is called `main`.
+A parallel working version of your repository. You can have multiple branches at a time and branches can be created and deleted at will. Each repository's default branch is called `main`.
 
 <details>
 <summary><h2> Making a fork </h2></summary>
@@ -101,7 +101,7 @@ int main() {
 
 **Push and Pull**
 
-Imagine you are pushing your 'block' of code to the repository. That is the same as you uploading your changes. The same concept works the other way. When someone has made changes to the repository that you have not yet seen, you download, or **pull** those changes.
+Imagine you are pushing your 'block' of code to the repository. That is the same as uploading your changes. The same concept works the other way. When someone has made changes to the repository that you have not yet seen, you download, or **pull** those changes.
 </details>
 
 <details>
@@ -111,7 +111,7 @@ Pull requests, or PRs, are used to combine branches either from the same reposit
 
 In this lab, both you and your partner will make a pull request, merging their own branch to the main branch. 
 
-1. After you've made your commit, you'll notice a message notifying that you can compare and pull request. You can either click that message, or access the pull request tab at the top of the repository page. If you choose the message, you can skip to step 5.
+1. After you've made your commit, you'll notice a message notifying that you can compare and make a pull request. You can either click that message, or access the pull request tab at the top of the repository page. If you choose the message, you can skip to step 5.
 
 2. From the Pull requests tab, click **New pull request**. Make sure the main branch is selected from the **base:** dropdown menu.
 
@@ -128,17 +128,26 @@ In this lab, both you and your partner will make a pull request, merging their o
 The conceptual understanding of a pull request is that you propose a change and request that someone else pulls your changes into the repository. This is often used when working on projects you do not have direct permissions to edit. You can contribute to other people's projects using a pull request.
 </details>
 
+<details>
+<summary><h2> Edit your partner's branch</h2></summary>
+
+Here is where the collaboration that Github features come in.
+
+1. Back in Github Desktop, you'll still currently be in your own branch. Click the branch dropdown menu and select your partner's branch. From 
+
+</details>
+
 
 <details>
-<summary><h2> Merge your partner's pull request </h2></summary>
+<summary><h2> Merge your pull request </h2></summary>
 
 Now that both of you have created a pull request, you can both view each other's new branch and file. Merging a pull request is the act of combining two different branches into one, the two branches you proposed in your pull request.
 
-1. Navigate to the **Pull request** tab and find your partner's pull request.
+1. Navigate to the **Pull request** tab and find your pull request.
 
 2. Click **Merge pull request**, then **Confirm merge**.
 
-3. After your partner's branch has been merged, all the changes from that branch will now appear on the main branch. You don't need that branch anymore and you can now delete it
+3. After your branch has been merged, all the changes from that branch will now appear on the main branch. You don't need that branch anymore and you can now delete it
 
 
 And that's it! To turn in this lab, **submit** the link to your repository through **Canvas** and make sure the professor's email has been added as a collaborator.
