@@ -46,7 +46,8 @@ You'll be working with a lab partner, so the next step only needs to be done by 
 
 4. Wait about 30 seconds for Github to finish forking the repository, then refresh the page. You can continue the lab from this repository.
 
-5. In this new repository, select the Settings tab near the top right, then click Collaborators on the left. Add your professor, ``, and your lab partner.
+5. In this new repository, select the Settings tab near the top right, then click Collaborators on the left. Add your professor, **srussell@elcamino.edu
+**, and your lab partner.
 
 </details>
 
@@ -99,7 +100,7 @@ int main() {
 
 **Push and Pull**
 
-    Imagine you are pushing your 'block' of code to the repository. That is the same as you uploading your changes. The same concept works the other way. When someone has made changes to the repository that you have not yet seen, you download, or **pull** those changes.
+Imagine you are pushing your 'block' of code to the repository. That is the same as you uploading your changes. The same concept works the other way. When someone has made changes to the repository that you have not yet seen, you download, or **pull** those changes.
 </details>
 
 <details>
@@ -138,7 +139,7 @@ Now that both of you have created a pull request, you can both view each other's
 3. After your partner's branch has been merged, all the changes from that branch will now appear on the main branch. You don't need that branch anymore and you can now delete it
 
 
-And that's it! To turn in this lab, **submit** the link to your repository **through Canvas** and make sure the professor's email has been added as a collaborator.
+And that's it! To turn in this lab, **submit** the link to your repository through **Canvas** and make sure the professor's email has been added as a collaborator.
 
 Since you'll be using Github for your final project, you can always look back to this lab to refresh yourself on how some steps work. 
 
