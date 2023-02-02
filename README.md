@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Git is a distributed version control system. In layman's terms, this is a piece of software that helps you organize your projects whether you work alone or collaborate with others. It has become integral to the world of STEM as it helped replace the olden days of sending code back and forth through emails. It generates a history of every change you've made and keeps those changes so collaborators can see exactly what others have worked on and make contributions to others' work.
+Git is a distributed version control system. A distributed version control system is a piece of software that helps you organize your projects whether you work alone or collaborate with others. It has become integral to the world of STEM as it helped replace the olden days of sending code back and forth through emails. It generates a history of every change you've made and keeps those changes so collaborators can see exactly what others have worked on and make contributions to others' work.
 
 The difference between Git and Github is that git is a separate software created back in 2005 by Linus Torvalds, the same person who created the Linux operating system. Github is a cloud computing implementation of Git created in 2008. This is the equivalent of Microsoft Word being created, then Google Drive coming along and allowing you to collaborate and access your documents from multiple devices with ease.
 
@@ -77,7 +77,7 @@ A commit is a group of edits you've made to files and folders.
 
 2. Go back to the repository in your web browser. Click the green button near the top of the repository that says Code. Click the button next to the link to copy the link.
 
-![clone](images/)
+![clone](images/clone.png)
 
 3. In Github Desktop, click **Clone a repository from the internet**. You should see the repository you forked in the previous step. Select that repository and click clone.
 
@@ -125,7 +125,7 @@ In this lab, both you and your partner will make a pull request, merging their o
 
 **Background to a pull request**
 
-The conceptual understanding of a pull request is that you propose a change and request that someone else pulls your changes into the repository. This is often used when working on projects you do not have direct permissions to edit. You can contribute to other people's projects using a pull request.
+The conceptual understanding of a pull request is that you propose a change and request that someone else pulls your changes into the repository. A pull request is often used when working on projects you do not have direct permissions to edit. You can contribute to other people's projects using a pull request.
 </details>
 
 <details>
