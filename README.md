@@ -94,7 +94,6 @@ int main() {
     return 0;
 }
 ```
-
 7. In Github desktop, you'll see your new file pop up on the left with the lines you added in the middle. At the bottom right, fill in the top text box to say **Added hello world**. Click the green button labeled **Commit** in the bottom left.
 
 8. At the top of the screen, click **Fetch Origin**, then after a second, **Push Origin**. After that you can view the repository in your web browser and you should see your new file inside the branch you created. 
@@ -134,6 +133,18 @@ The conceptual understanding of a pull request is that you propose a change and 
 Here is where the collaboration that Github features come in.
 
 1. Back in Github Desktop, you'll still currently be in your own branch. Click the branch dropdown menu and select your partner's branch. From 
+
+2. Open up your partner's file that they made and edit to contain the following:
+```
+using namespace std;
+#include <iostream>
+
+int main() {
+    cout << "Hello World!";
+    return 0;
+}
+```
+3. Following the steps from how to commit a file, 
 
 </details>
 
