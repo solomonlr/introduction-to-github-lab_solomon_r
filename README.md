@@ -58,11 +58,11 @@ Making a new branch allows you to make changes to the repository without affecti
 
 Each lab partner will have to do this next section on their own
 
-1. At the top left of the page, click the button that says main
+1. At the top left of the page, click the button that says **main**
 
 ![main-branch](images/main-branch.png)
 
-2. Enter the name for the branch following the following naming convention, `first-name-last-initial-branch`. For example, `john-a-branch`. Then click `Create branch:`.
+2. Enter the name for the branch following the following naming convention, `first-name-last-initial-branch`. For example, `john-a-branch`. Then click **Create branch:**.
 
 ![new-branch](images/new-branch.png)
 
@@ -73,13 +73,13 @@ Each lab partner will have to do this next section on their own
 
 A commit is a group of edits you've made to files and folders. 
 
-1. Open up Github Desktop. At the top right of the screen, click File -> Options. Login to your Github account from this screen.
+1. Open up Github Desktop. At the top right of the screen, click **File** -> **Options**. Login to your Github account from this screen.
 
-2. Go back to the repository in your web browser. Click the green button near the top of the repository that says Code. Click the button next to the link to copy the link.
+2. Go back to the repository in your web browser. Click the green button near the top of the repository that says **Code**. Click the button next to the link to copy the link.
 
 ![clone](images/clone.png)
 
-3. In Github Desktop, click **Clone a repository from the internet**. You should see the repository you forked in the previous step. Select that repository and click clone.
+3. In Github Desktop, click **Clone a repository from the internet**. You should see the repository you forked in the previous step. Select that repository and click **clone**.
 
 4. At the top, open the drop down menu titled **main branch** and select the branch you created earlier in this lab. 
 
@@ -132,7 +132,9 @@ The conceptual understanding of a pull request is that you propose a change and 
 
 Here is where the collaboration that Github features come in.
 
-1. Back in Github Desktop, you'll still currently be in your own branch. Click the branch dropdown menu and select your partner's branch. From 
+1. Back in Github Desktop, you'll still currently be in your own branch. Click the branch dropdown menu and select your partner's branch.
+
+![branch-dropdown-menu](images/branch-dropdown-menu.png)
 
 2. Open up your partner's file that they made and edit to contain the following:
 ```
@@ -144,7 +146,7 @@ int main() {
     return 0;
 }
 ```
-3. Following the steps from how to commit a file, 
+3. Following the steps from how to commit a file, save your changes and push this change to your partner's branch
 
 </details>
 
@@ -163,6 +165,48 @@ Now that both of you have created a pull request, you can both view each other's
 
 And that's it! To turn in this lab, **submit** the link to your repository through **Canvas** and make sure the professor's email has been added as a collaborator.
 
-Since you'll be using Github for your final project, you can always look back to this lab to refresh yourself on how some steps work. 
+Since you'll be using Github for your final project, you can always look back to this lab to refresh yourself on how some steps work.
+
+The last section will show you how to use what you learned with your final project
+
+</details>
+
+<details>
+<summary><h2> Github and your Final Project </h2></summary>
+Since your final project will be done with a partner, Github is a perfect tool to use to collaborate. Refer back here when starting your project.
+
+<h2> .gitignore </h2>
+.gitignore is a file that can be used to ignore certain files inside a repository folder. This means you can have notes and other personal files inside the same folder as the repository folder without sharing them with others.
+
+This is especially useful for programmers and object files. Since you'll be compiling your project everytime you make a change, you'll be creating new object files that your partner doesn't actually need. 
+
+After you extracted your Iceman project, go inside the Iceman folder that contains all of the header and cpp files. From here, make a file called `.gitignore`. The period at the front of the file name is important. Inside, put this text.
+
+```
+*
+!.gitignore
+!Actor.h
+!Actor.cpp
+!StudentWorld.h
+!StudentWorld.cpp
+```
+
+Each line here is a file or folder that git will ignore when scanning your folder for any changes. This means that the only files you'll need to turn in will appear in the repository.
+
+Since the project has so many files, it is easier to specify what git shouldn't ignore. The `*` tells git to ignore everything. Then the `!` in front of each file name tells git that it shouldn't ignore that file.
+
+<h2> Creating your repository <h2>
+Since the project files were given to you through a zip folder, you'll have to create your own repository. 
+
+Back in Github Desktop, click the button at the top left labled **Current repository**. Next, click **Add**, then **Create New Repository**
+
+![new-repo](images/create-new-repository.png)
+
+From this menu, fill in the Name with `Iceman-Project`. Choose the folder you put the project in, then click **Create repository**
+
+![new-repository-menu](images/new-repository-lmenu.png)
+
+
+
 
 </details>
