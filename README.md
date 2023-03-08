@@ -46,8 +46,7 @@ You'll be working with a lab partner, so the next step only needs to be done by 
 
 4. Wait about 30 seconds for Github to finish forking the repository, then refresh the page. You can continue the lab from this repository.
 
-5. In this new repository, select the Settings tab near the top right, then click Collaborators on the left. Add your professor, **srussell@elcamino.edu
-**, and your lab partner.
+5. In this new repository, select the Settings tab near the top right, then click Collaborators on the left. Add your professor, **srussell@elcamino.edu**, and your lab partner.
 
 </details>
 
@@ -130,7 +129,7 @@ The conceptual understanding of a pull request is that you propose a change and 
 <details>
 <summary><h2> Edit your partner's branch</h2></summary>
 
-Here is where the collaboration that Github features come in.
+Here is where the collaboration that Github features comes in.
 
 1. Back in Github Desktop, you'll still currently be in your own branch. Click the branch dropdown menu and select your partner's branch.
 
@@ -176,37 +175,54 @@ The last section will show you how to use what you learned with your final proje
 Since your final project will be done with a partner, Github is a perfect tool to use to collaborate. Refer back here when starting your project.
 
 <h2> .gitignore </h2>
+Only one group member needs to do the next section. The other group member will clone the repository later.
+
 .gitignore is a file that can be used to ignore certain files inside a repository folder. This means you can have notes and other personal files inside the same folder as the repository folder without sharing them with others.
 
 This is especially useful for programmers and object files. Since you'll be compiling your project everytime you make a change, you'll be creating new object files that your partner doesn't actually need. 
 
-After you extracted your Iceman project, go inside the Iceman folder that contains all of the header and cpp files. From here, make a file called `.gitignore`. The period at the front of the file name is important. Inside, put this text.
+After you extracted your IceMan project, go inside the IceMan folder that contains all of the header and cpp files. From here, make a file called `.gitignore`. The period at the front of the file name is important. Inside, put this text.
 
 ```
 *
-!.gitignore
-!Actor.h
-!Actor.cpp
-!StudentWorld.h
-!StudentWorld.cpp
+.gitignore
+!IceMan
+!IceMan/Actor.h
+!IceMan/Actor.cpp
+!IceMan/StudentWorld.h
+!IceMan/StudentWorld.cpp
 ```
 
 Each line here is a file or folder that git will ignore when scanning your folder for any changes. This means that the only files you'll need to turn in will appear in the repository.
 
 Since the project has so many files, it is easier to specify what git shouldn't ignore. The `*` tells git to ignore everything. Then the `!` in front of each file name tells git that it shouldn't ignore that file.
 
-<h2> Creating your repository <h2>
+<h2> Creating your repository </h2>
 Since the project files were given to you through a zip folder, you'll have to create your own repository. 
 
-Back in Github Desktop, click the button at the top left labled **Current repository**. Next, click **Add**, then **Create New Repository**
+Back in Github Desktop, click the button at the top left labeled **Current repository**. Next, click **Add**, then **Create New Repository**
 
 ![new-repo](images/create-new-repository.png)
 
-From this menu, fill in the Name with `Iceman-Project`. Choose the folder you put the project in, then click **Create repository**
+From this menu, fill in the Name with **IceMan-Project**. Choose the folder you put the project in, then click **Create repository**
 
-![new-repository-menu](images/new-repository-lmenu.png)
+![new-repository-menu](images/new-repository-menu.png)
 
+This will create a new folder named IceMan-Project inside the folder specified. In the example, this will be inside the Documents folder. From here, move the .gitignore file, IceMan folder (containing cpp and h files) and the IceMan.sln file into this **IceMan-Project** folder.
 
+In Github desktop, you should see these new files added. 
+
+![added-files](images/added-files.png)
+
+Next, click **Publish repository**, then the button also titled **public repository**. Now you'll be able to see this repository attached to your account on Github.
+
+On the bottom left of Github Desktop, fill in the 
+
+![initial-commit](images/initial-commit.png)
+
+Then click **Commit to main**. At the top, click **Push origin**. If you see **Fetch origin**, click that, then it will say **Push origin**. After that, you'll see your work has been uploaded to Github.
+
+Now, following the steps used in this lab, your lab partner can clone the repository. Your lab partner will also need to copy over the other files from the IceMan folder. After they have done that, you two can start working. 
 
 
 </details>
